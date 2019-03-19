@@ -1,0 +1,13 @@
+language: python
+python:
+  - "3.6"
+
+#comando pra executar o teste
+script:
+  - py.test teste.py
+  
+  after script:
+  notification:
+  recipients:
+    - caio.figueiredo@aluno.faculdadeimpacta.com.br
+  
